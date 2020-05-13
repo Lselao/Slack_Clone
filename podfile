@@ -1,0 +1,12 @@
+project 'slack clone.xcodeproj'
+
+target 'slack clone' do
+
+use_frameworks!
+# platform :ios, '10.15.4'
+
+ pod 'Alamofire'
+ pod 'SwiftyJSON'
+ pod 'Socket.IO-Client-Swift'
+
+end

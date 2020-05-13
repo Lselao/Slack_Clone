@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11EA6A1246C393A007A4A9E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11EA6A0246C393A007A4A9E /* SWRevealViewController.m */; };
+		A15DA954246C2C2A0054559C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DA953246C2C2A0054559C /* AppDelegate.swift */; };
+		A15DA956246C2C2A0054559C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DA955246C2C2A0054559C /* SceneDelegate.swift */; };
+		A15DA958246C2C2A0054559C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DA957246C2C2A0054559C /* ViewController.swift */; };
+		A15DA95B246C2C2B0054559C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15DA959246C2C2A0054559C /* Main.storyboard */; };
+		A15DA95D246C2C2C0054559C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15DA95C246C2C2C0054559C /* Assets.xcassets */; };
+		A15DA960246C2C2C0054559C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15DA95E246C2C2C0054559C /* LaunchScreen.storyboard */; };
+		A15DA96B246C2C2C0054559C /* slack_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DA96A246C2C2C0054559C /* slack_cloneTests.swift */; };
+		A15DA976246C2C2C0054559C /* slack_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DA975246C2C2C0054559C /* slack_cloneUITests.swift */; };
+		AD83476482469B3DA1440B2A /* Pods_slack_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15553403217398F4A6C0B289 /* Pods_slack_clone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A15DA967246C2C2C0054559C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15DA948246C2C2A0054559C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15DA94F246C2C2A0054559C;
+			remoteInfo = "slack clone";
+		};
+		A15DA972246C2C2C0054559C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15DA948246C2C2A0054559C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15DA94F246C2C2A0054559C;
+			remoteInfo = "slack clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00129560BE39554D68A729AF /* Pods-slack clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slack clone.release.xcconfig"; path = "Target Support Files/Pods-slack clone/Pods-slack clone.release.xcconfig"; sourceTree = "<group>"; };
+		15553403217398F4A6C0B289 /* Pods_slack_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slack_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11EA69E246C3939007A4A9E /* slack clone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slack clone-Bridging-Header.h"; sourceTree = "<group>"; };
+		A11EA69F246C3939007A4A9E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A11EA6A0246C393A007A4A9E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A15DA950246C2C2A0054559C /* slack clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slack clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15DA953246C2C2A0054559C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A15DA955246C2C2A0054559C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A15DA957246C2C2A0054559C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A15DA95A246C2C2A0054559C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A15DA95C246C2C2C0054559C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A15DA95F246C2C2C0054559C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A15DA961246C2C2C0054559C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15DA966246C2C2C0054559C /* slack cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "slack cloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15DA96A246C2C2C0054559C /* slack_cloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slack_cloneTests.swift; sourceTree = "<group>"; };
+		A15DA96C246C2C2C0054559C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15DA971246C2C2C0054559C /* slack cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "slack cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15DA975246C2C2C0054559C /* slack_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slack_cloneUITests.swift; sourceTree = "<group>"; };
+		A15DA977246C2C2C0054559C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64E0908DADF69A840832D22 /* Pods-slack clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slack clone.debug.xcconfig"; path = "Target Support Files/Pods-slack clone/Pods-slack clone.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A15DA94D246C2C2A0054559C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD83476482469B3DA1440B2A /* Pods_slack_clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15DA963246C2C2C0054559C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15DA96E246C2C2C0054559C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA7F4A07EF6BF241D19692D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15553403217398F4A6C0B289 /* Pods_slack_clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A55ED17ED8C237E06B9EAC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F64E0908DADF69A840832D22 /* Pods-slack clone.debug.xcconfig */,
+				00129560BE39554D68A729AF /* Pods-slack clone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A11EA69D246C391D007A4A9E /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A11EA69F246C3939007A4A9E /* SWRevealViewController.h */,
+				A11EA6A0246C393A007A4A9E /* SWRevealViewController.m */,
+				A11EA69E246C3939007A4A9E /* slack clone-Bridging-Header.h */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A15DA947246C2C2A0054559C = {
+			isa = PBXGroup;
+			children = (
+				A11EA69D246C391D007A4A9E /* Supporting files */,
+				A15DA952246C2C2A0054559C /* slack clone */,
+				A15DA969246C2C2C0054559C /* slack cloneTests */,
+				A15DA974246C2C2C0054559C /* slack cloneUITests */,
+				A15DA951246C2C2A0054559C /* Products */,
+				4A55ED17ED8C237E06B9EAC0 /* Pods */,
+				2FA7F4A07EF6BF241D19692D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A15DA951246C2C2A0054559C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15DA950246C2C2A0054559C /* slack clone.app */,
+				A15DA966246C2C2C0054559C /* slack cloneTests.xctest */,
+				A15DA971246C2C2C0054559C /* slack cloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A15DA952246C2C2A0054559C /* slack clone */ = {
+			isa = PBXGroup;
+			children = (
+				A15DA953246C2C2A0054559C /* AppDelegate.swift */,
+				A15DA955246C2C2A0054559C /* SceneDelegate.swift */,
+				A15DA957246C2C2A0054559C /* ViewController.swift */,
+				A15DA959246C2C2A0054559C /* Main.storyboard */,
+				A15DA95C246C2C2C0054559C /* Assets.xcassets */,
+				A15DA95E246C2C2C0054559C /* LaunchScreen.storyboard */,
+				A15DA961246C2C2C0054559C /* Info.plist */,
+			);
+			path = "slack clone";
+			sourceTree = "<group>";
+		};
+		A15DA969246C2C2C0054559C /* slack cloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A15DA96A246C2C2C0054559C /* slack_cloneTests.swift */,
+				A15DA96C246C2C2C0054559C /* Info.plist */,
+			);
+			path = "slack cloneTests";
+			sourceTree = "<group>";
+		};
+		A15DA974246C2C2C0054559C /* slack cloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A15DA975246C2C2C0054559C /* slack_cloneUITests.swift */,
+				A15DA977246C2C2C0054559C /* Info.plist */,
+			);
+			path = "slack cloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A15DA94F246C2C2A0054559C /* slack clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15DA97A246C2C2C0054559C /* Build configuration list for PBXNativeTarget "slack clone" */;
+			buildPhases = (
+				54686A153ACDB76EDF745B80 /* [CP] Check Pods Manifest.lock */,
+				A15DA94C246C2C2A0054559C /* Sources */,
+				A15DA94D246C2C2A0054559C /* Frameworks */,
+				A15DA94E246C2C2A0054559C /* Resources */,
+				52802342233E918A0E0FA6D0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "slack clone";
+			productName = "slack clone";
+			productReference = A15DA950246C2C2A0054559C /* slack clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A15DA965246C2C2C0054559C /* slack cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15DA97D246C2C2C0054559C /* Build configuration list for PBXNativeTarget "slack cloneTests" */;
+			buildPhases = (
+				A15DA962246C2C2C0054559C /* Sources */,
+				A15DA963246C2C2C0054559C /* Frameworks */,
+				A15DA964246C2C2C0054559C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15DA968246C2C2C0054559C /* PBXTargetDependency */,
+			);
+			name = "slack cloneTests";
+			productName = "slack cloneTests";
+			productReference = A15DA966246C2C2C0054559C /* slack cloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A15DA970246C2C2C0054559C /* slack cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15DA980246C2C2C0054559C /* Build configuration list for PBXNativeTarget "slack cloneUITests" */;
+			buildPhases = (
+				A15DA96D246C2C2C0054559C /* Sources */,
+				A15DA96E246C2C2C0054559C /* Frameworks */,
+				A15DA96F246C2C2C0054559C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15DA973246C2C2C0054559C /* PBXTargetDependency */,
+			);
+			name = "slack cloneUITests";
+			productName = "slack cloneUITests";
+			productReference = A15DA971246C2C2C0054559C /* slack cloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A15DA948246C2C2A0054559C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = lebose;
+				TargetAttributes = {
+					A15DA94F246C2C2A0054559C = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+					A15DA965246C2C2C0054559C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A15DA94F246C2C2A0054559C;
+					};
+					A15DA970246C2C2C0054559C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A15DA94F246C2C2A0054559C;
+					};
+				};
+			};
+			buildConfigurationList = A15DA94B246C2C2A0054559C /* Build configuration list for PBXProject "slack clone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A15DA947246C2C2A0054559C;
+			productRefGroup = A15DA951246C2C2A0054559C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15DA94F246C2C2A0054559C /* slack clone */,
+				A15DA965246C2C2C0054559C /* slack cloneTests */,
+				A15DA970246C2C2C0054559C /* slack cloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15DA94E246C2C2A0054559C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15DA960246C2C2C0054559C /* LaunchScreen.storyboard in Resources */,
+				A15DA95D246C2C2C0054559C /* Assets.xcassets in Resources */,
+				A15DA95B246C2C2B0054559C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15DA964246C2C2C0054559C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15DA96F246C2C2C0054559C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52802342233E918A0E0FA6D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-slack clone/Pods-slack clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-slack clone/Pods-slack clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-slack clone/Pods-slack clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54686A153ACDB76EDF745B80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-slack clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15DA94C246C2C2A0054559C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15DA958246C2C2A0054559C /* ViewController.swift in Sources */,
+				A15DA954246C2C2A0054559C /* AppDelegate.swift in Sources */,
+				A15DA956246C2C2A0054559C /* SceneDelegate.swift in Sources */,
+				A11EA6A1246C393A007A4A9E /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15DA962246C2C2C0054559C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15DA96B246C2C2C0054559C /* slack_cloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15DA96D246C2C2C0054559C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15DA976246C2C2C0054559C /* slack_cloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A15DA968246C2C2C0054559C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15DA94F246C2C2A0054559C /* slack clone */;
+			targetProxy = A15DA967246C2C2C0054559C /* PBXContainerItemProxy */;
+		};
+		A15DA973246C2C2C0054559C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15DA94F246C2C2A0054559C /* slack clone */;
+			targetProxy = A15DA972246C2C2C0054559C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A15DA959246C2C2A0054559C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15DA95A246C2C2A0054559C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A15DA95E246C2C2C0054559C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15DA95F246C2C2C0054559C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A15DA978246C2C2C0054559C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A15DA979246C2C2C0054559C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A15DA97B246C2C2C0054559C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64E0908DADF69A840832D22 /* Pods-slack clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "slack clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.slack-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting files/slack clone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A15DA97C246C2C2C0054559C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00129560BE39554D68A729AF /* Pods-slack clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "slack clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.slack-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting files/slack clone-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A15DA97E246C2C2C0054559C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "slack cloneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.slack-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slack clone.app/slack clone";
+			};
+			name = Debug;
+		};
+		A15DA97F246C2C2C0054559C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "slack cloneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.slack-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slack clone.app/slack clone";
+			};
+			name = Release;
+		};
+		A15DA981246C2C2C0054559C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "slack cloneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.slack-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "slack clone";
+			};
+			name = Debug;
+		};
+		A15DA982246C2C2C0054559C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "slack cloneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Front-End.slack-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "slack clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A15DA94B246C2C2A0054559C /* Build configuration list for PBXProject "slack clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15DA978246C2C2C0054559C /* Debug */,
+				A15DA979246C2C2C0054559C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15DA97A246C2C2C0054559C /* Build configuration list for PBXNativeTarget "slack clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15DA97B246C2C2C0054559C /* Debug */,
+				A15DA97C246C2C2C0054559C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15DA97D246C2C2C0054559C /* Build configuration list for PBXNativeTarget "slack cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15DA97E246C2C2C0054559C /* Debug */,
+				A15DA97F246C2C2C0054559C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15DA980246C2C2C0054559C /* Build configuration list for PBXNativeTarget "slack cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15DA981246C2C2C0054559C /* Debug */,
+				A15DA982246C2C2C0054559C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A15DA948246C2C2A0054559C /* Project object */;
+}
